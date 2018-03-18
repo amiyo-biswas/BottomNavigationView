@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab_home"
+        android:checked="true"
+        android:icon="@drawable/dashboard"
+        android:title="Home"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/tab_maintenance"
+        android:checked="false"
+        android:icon="@drawable/maintance"
+        android:title="Maintenance"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/tab_service"
+        android:checked="false"
+        android:icon="@drawable/serviceprovider"
+        android:title="Service"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/tab_notice"
+        android:checked="false"
+        android:icon="@drawable/notice"
+        android:title="Notice"
+        app:showAsAction="always|withText"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/tab_more"
+        android:checked="false"
+        android:icon="@drawable/more_icon"
+        android:title="More"
+        app:showAsAction="always|withText" />
+
+
+</menu>
